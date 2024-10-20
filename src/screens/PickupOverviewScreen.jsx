@@ -5,7 +5,6 @@ import {
   StyleSheet,
   TouchableOpacity,
   ScrollView,
-  TextInput,
   Alert,
 } from 'react-native';
 import MapView, {Marker} from 'react-native-maps';
