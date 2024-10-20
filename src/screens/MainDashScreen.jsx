@@ -49,7 +49,6 @@ const DashboardScreen = () => {
 
         <View style={styles.bottomIconsWrapper}>
           <TouchableOpacity
-            onPress={() => handleNavigate('Help')}
             style={styles.iconButton}>
             <Ionicons
               name="help-circle-outline"
@@ -59,7 +58,6 @@ const DashboardScreen = () => {
           </TouchableOpacity>
 
           <TouchableOpacity
-            onPress={() => handleNavigate('EditProfile')}
             style={styles.iconButton}>
             <Ionicons name="create-outline" size={30} color={colors.white} />
           </TouchableOpacity>
